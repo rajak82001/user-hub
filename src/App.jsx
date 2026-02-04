@@ -7,7 +7,7 @@ import Account from "./pages/Account";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/user-hub/">
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/login" element={<Login />} />
